@@ -16,6 +16,10 @@ local pluginKeys = {}
 map("n", "<A-m>", ":NvimTreeToggle<CR>", opt)
 map("n", "<leader>m", ":NvimTreeToggle<CR>", opt)
 
+-- bufferline 左右tab切换
+map("n", "<C-h>", ":BufferLineCyclePrev<CR>", opt)
+map("n", "<C-l>", ":BufferLineCycleNext<CR>", opt)
+
 pluginKeys.nvimTreeList = {
 
 }
