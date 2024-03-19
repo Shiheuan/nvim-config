@@ -37,5 +37,10 @@ return require('packer').startup(function()
             ts_update()
         end
   }
+  --------------------- lsp --------------------
+  -- lsp config
+  use {
+    'neovim/nvim-lspconfig',
+  }
 end)
 
